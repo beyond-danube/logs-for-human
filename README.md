@@ -9,7 +9,8 @@ Available for browser and for local Notepad++.
 2. Download `logs-for-human.js`
 3. In Tampermonkey click `+` to add new script
 4. Copy and paste whole sctipt from `logs-for-human.js` to new created Tampermonkey script
-5. Add your URL pattern in `@match` row.  
+5. Add your URL pattern in `@match` row.
+6. Save script.  
   
 Note: script is unsafe for pages, that are not logs, so can break HTML structure. Try to add pattern, where logs only are located, e.g. `https://your-jenkins/*/console*`
 ## Notepad++
