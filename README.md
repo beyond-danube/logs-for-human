@@ -2,7 +2,7 @@
 Coloring for quickly finding information that you need from log.  
 Available for browser and for local Notepad++.
   
-## Chrome/Opera/Firefox/Safari Browser
+## Chrome / Opera / Firefox / Safari Browser
 ![](img/browser_logs_for_human_screen.png)
 ### Usage
 1. Install [Tampermonkey](https://www.tampermonkey.net) extension for your browser 
