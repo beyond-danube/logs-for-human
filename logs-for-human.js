@@ -1,16 +1,13 @@
 // ==UserScript==
 // @name Logs for Human
 // @author Alexey Siniavtsev
-// @match https://your-jenkins.com/* - add your resource, where you view logs here
-// @match https://anothreresource.org/* - or here
+// @match https://www.ibm.com/support/knowledgecenter/*
+// Update pattern in the line above in order to use on desired sites
 // ==/UserScript==
 
 function highLight(word, color, bgcolor) {
     var pre = document.getElementsByTagName('pre');
-    var div = document.getElementsByTagName('div');
-
     reColorCollection(pre, word, color, bgcolor);
-    reColorCollection(div, word, color, bgcolor);
 }
 
 function reColor(str, word, color, bgcolor){
@@ -24,7 +21,6 @@ function reColor(str, word, color, bgcolor){
 function reColorCollection(collection, word, color, bgcolor) {
     for (var n = 0; n < collection.length; n++) {
         collection[n].innerHTML = reColor(collection[n].innerHTML, word, color, bgcolor);
-
     }
 }
 
