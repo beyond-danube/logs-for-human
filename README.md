@@ -12,7 +12,8 @@ Available for browser and for local Notepad++.
 5. Add your URL pattern in `@match` row.
 6. Save script.  
   
-Note: script is unsafe for pages, that are not logs, so can break HTML structure. Try to add pattern, where logs only are located, e.g. `https://your-jenkins/*/console*`
+Highlighting can be checked with [IBM knowledge center sample logs](https://www.ibm.com/support/knowledgecenter/en/SSLTBW_2.1.0/com.ibm.zos.v2r1.hald001/exmlogfile.htm).
+  
 ## Notepad++
 ![](img/npp_logs_for_human_screen.png)
 ### Usage
